@@ -1,0 +1,113 @@
+.wrapper{
+    display: grid;
+    color: blue;
+    width: 100%; margin: auto;
+    border: 1px salmon;
+    background: yellowgreen;
+    grid-template-columns: repeat(200px,1fr) 100px;
+    grid-auto-rows: 100px 100px 100px;
+    grid-gap: 20px;
+
+}
+.div_1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: aqua;
+    padding: 10px;
+
+}
+
+.div_2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: aquamarine;
+    padding: 10px;
+
+}
+
+.div_3{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: orange;
+    padding: 10px;
+
+}
+.div_4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: red;
+    padding: 10px;
+
+
+
+}
+.div_5{
+    grid-column:2/3 ;
+    grid-row: 2/3;
+    background-color: palevioletred;
+    padding: 10px;
+
+}
+
+.div_6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+.div_7{
+    grid-column: 1/3;
+    grid-row: 3/5;
+ background-color: palegreen;
+ padding: 10px;
+
+
+}
+.div_8{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: chartreuse;
+    padding: 10px;
+
+
+}
+.div_9{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: lightgreen;
+    padding: 10px;
+
+}
+.div_10{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color:burlywood;
+    padding: 10px;
+
+
+}
+.div_11{
+    grid-column: 1/4;
+    grid-row: 5/6;
+    background-color: brown;
+    padding: 10px;
+
+
+}
+.div_12{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    background-color: yellow;
+    padding: 10px;
+
+}
+.div_13{
+
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-color: orchid;
+    padding: 10px;
+
+
+}
